@@ -85,7 +85,7 @@ do_start () {
    ## because VBoxService is already running and can not be re-configured.
 
    local msg="\
-$0
+$BASH_SOURCE
        Running: service virtualbox-guest-utils stop 2>/dev/null || true
        Only in case guest additions are installed.
        Should only deactivate VirtualBox's time synchronization mechanism.
