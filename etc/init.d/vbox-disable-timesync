@@ -1,6 +1,6 @@
 #!/bin/bash
 ### BEGIN INIT INFO
-# Provides:          vboxdisabletimesync
+# Provides:          vbox-disable-timesync
 # Required-Start:    $local_fs $remote_fs $syslog
 # Required-Stop:     $local_fs $remote_fs $syslog
 # Should-Start:      vboxguest
