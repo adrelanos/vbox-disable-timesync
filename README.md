@@ -1,7 +1,14 @@
 # Disables VirtualBox guest addition's time synchronization feature #
 
-Because it would interfere with other network time synchronization mechanisms,
-such as sdwdate or bootclockrandomization.
+When VirtualBox guest additions are installed in a VirtualBox Virtual Machine
+(VM), VirtualBox will set the VM's time to the host's time. In most cases,
+this is a useful feature, but not in context of anonymity/privacy, where the
+VM's clock is supposed to differ from the host's clock.
+
+VirtualBox's feature would interfere with other network time synchronization
+mechanisms, such as sdwdate or bootclockrandomization.
+
+This package contains an init script, that disables this VirtualBox feature.
 
 (This package description has been [automatically](https://github.com/Whonix/whonix-developer-meta-files/blob/master/debug-steps/packaging-helper-script) extracted and mirrored from `debian/control`.)
 
