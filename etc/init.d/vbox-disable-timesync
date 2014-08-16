@@ -73,12 +73,20 @@ do_start () {
       rm -f "$SUCCESS_FILE"
    fi
 
-   ## Let's find out on which host operating system the build script is running.
-   operating_system="$(lsb_release --short --i)"
-   ## Converting operating_system to lower case to make later if comparison easier.
-   operating_system="${operating_system,,}"
-   ## Example operating_system: debian
-   ## Example operating_system: ubuntu
+   ## Can not use
+   ##    lsb_release --short --i
+   ## because that would return "Whonix" rather than "Debian" since Debian jessie.
+
+   ## Provides variable ID.
+   if [ -f /usr/lib/os-release ]; then
+      source  /usr/lib/os-release
+   fi
+   if [ -f /etc/os-release ]; then
+      source /etc/os-release
+   fi
+
+   ## Example ID: debian
+   ## Example ID: ubuntu
 
    ## Does not work:
    ##     /usr/sbin/VBoxService --disable-timesync || true
@@ -94,10 +102,10 @@ $BASH_SOURCE
        Details:
            https://www.whonix.org/wiki/Dev/TimeSync"
 
-   if [ "$operating_system" = "ubuntu" ]; then
+   if [ "$ID" = "ubuntu" ]; then
       log_action_msg "$msg"
       service vboxadd-service stop 2>/dev/null || true
-   elif [ "$operating_system" = "debian" ]; then
+   elif [ "$ID" = "debian" ]; then
       log_action_msg "$msg"
       service virtualbox-guest-utils stop 2>/dev/null || true
    else
