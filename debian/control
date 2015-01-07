@@ -6,7 +6,7 @@ Source: vbox-disable-timesync
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 8), faketime
+Build-Depends: debhelper (>= 9), faketime
 Homepage: https://github.com/Whonix/vbox-disable-timesync
 Vcs-Browser: https://github.com/Whonix/vbox-disable-timesync
 Vcs-Git: https://github.com/Whonix/vbox-disable-timesync.git
