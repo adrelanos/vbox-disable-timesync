@@ -1,3 +1,9 @@
+commit 958086eb0d55e0669492ab16ec15d810a533f597
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu May 14 11:00:17 2015 +0000
+
+    more robust implementation that is compatible with systemd; bumped changelog version
+
 commit 9bf40f0ddba47319d53876a86003853ae6896e44
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 30 17:57:03 2015 +0000
