@@ -1,5 +1,10 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+## upstream issues
 vbox-disable-timesync: init.d-script-does-not-provide-itself etc/init.d/virtualbox-guest-utils.anondist
-vbox-disable-timesync: init.d-script-not-marked-as-conffile etc/init.d/virtualbox-guest-utils
-vbox-disable-timesync: init.d-script-not-included-in-package etc/init.d/virtualbox-guest-utils
-vbox-disable-timesync: script-in-etc-init.d-not-registered-via-update-rc.d etc/init.d/virtualbox-guest-utils.anondist
 vbox-disable-timesync: init.d-script-missing-lsb-description etc/init.d/virtualbox-guest-utils.anondist
+
+## for config-package-dev
+vbox-disable-timesync: package-contains-empty-directory usr/share/vbox-disable-timesync/
