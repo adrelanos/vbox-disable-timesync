@@ -1,3 +1,15 @@
+commit 383bc1c1f5d7cf9186db36488e904bc4fac47f16
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 00:02:00 2015 +0000
+
+    fix 'insserv: script virtualbox-guest-utils.anondist-orig: service vboxguest already provided!' issue during apt-get install/upgrade - https://phabricator.whonix.org/T321
+
+commit 6b71fc4fdccaa709533f3bcf19fe654c3e2f563f
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 15 20:30:50 2015 +0000
+
+    bumped changelog version
+
 commit 958086eb0d55e0669492ab16ec15d810a533f597
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu May 14 11:00:17 2015 +0000
