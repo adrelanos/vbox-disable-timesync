@@ -1,3 +1,15 @@
+commit e688100a72090439312866f6f3df1a30e30de93d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 00:06:15 2015 +0000
+
+    backwards compatibility fix
+
+commit f502ffc2adbe81176a95cb04690595a10fca4542
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat May 23 00:02:44 2015 +0000
+
+    bumped changelog version
+
 commit 383bc1c1f5d7cf9186db36488e904bc4fac47f16
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat May 23 00:02:00 2015 +0000
