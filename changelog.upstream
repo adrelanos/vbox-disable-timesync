@@ -1,3 +1,15 @@
+commit f18af1107cedfc50ef06b054d1463835376e0415
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 10 03:05:14 2015 +0000
+
+    Do not try to (re-)start the service after package install/upgrade, because it could fail if kernel was upgraded, which would make the whole postinst script fail.
+
+commit 8de60fd0de0c1aa512aabe5c99125835862d90d4
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 15:00:31 2015 +0000
+
+    bumped changelog version
+
 commit 88da188caf019236716714e6d9b13f872804e304
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat May 23 00:06:37 2015 +0000
