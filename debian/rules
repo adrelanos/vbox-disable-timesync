@@ -11,7 +11,10 @@
 
 override_dh_install:
 	dh_configpackage
-	dh_installinit --onlyscripts --name virtualbox-guest-utils.anondist
+	## Do not try to (re-)start the service after package install/upgrade,
+	## because it could fail if kernel was upgraded, which would make the
+	## whole postinst script fail.
+	dh_installinit --no-start --onlyscripts --name virtualbox-guest-utils.anondist
 
 override_dh_installchangelogs:
 	dh_installchangelogs changelog.upstream upstream
