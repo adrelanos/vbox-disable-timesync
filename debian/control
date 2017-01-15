@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile, config-package-dev
 Homepage: https://github.com/Whonix/vbox-disable-timesync
 Vcs-Browser: https://github.com/Whonix/vbox-disable-timesync
 Vcs-Git: https://github.com/Whonix/vbox-disable-timesync.git
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: vbox-disable-timesync
 Architecture: all
