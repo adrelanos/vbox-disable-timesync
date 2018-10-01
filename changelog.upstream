@@ -1,3 +1,31 @@
+commit f669dbc265e246c1a4df0f6c9d6a4e898f6dbcc0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 1 07:27:37 2018 -0400
+
+    fix for systemd
+    
+    https://phabricator.whonix.org/T848
+
+commit 2357c85366ad275712003dfd583179d51f6e8d21
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 1 07:24:57 2018 -0400
+
+    update jessie -> stretch
+
+commit c9c36ebda2134d16cdaa18a3bd20b95978d3f8b6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Oct 1 07:23:50 2018 -0400
+
+    fix for systemd
+    
+    https://phabricator.whonix.org/T848
+
+commit 0471831a64183a2891a31990a84443a465a4c88a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Aug 27 16:57:03 2018 +0000
+
+    bumped changelog version
+
 commit c382ef806705cd5bffb7f6b201dd3b13f8f4bbd7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Tue Aug 21 05:18:42 2018 +0800
