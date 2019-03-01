@@ -19,3 +19,16 @@ License: GPL-3+
  On Debian systems, the full text of the GNU General Public
  License version 3 can be found in the file
  `/usr/share/common-licenses/GPL-3'.
+
+Files: etc/init.d/virtualbox-guest-utils.anondist
+Copyright:
+ Patrick Winnertz <patrick.winnertz@skolelinux.org>,
+ Daniel Baumann <daniel@debian.org>,
+ Philipp Hug <debian@hug.cx>,
+ Michael Meskes <meskes@debian.org>,
+ Felix Geyer <fgeyer@debian.org>,
+ Ritesh Raj Sarraf <rrs@debian.org>,
+ Gianfranco Costamagna <costamagnagianfranco@yahoo.it>
+ and is licensed under the GPL-2+,
+License: GPL-2
+ see `/usr/share/common-licenses/GPL-2'.
