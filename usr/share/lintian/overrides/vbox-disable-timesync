@@ -7,3 +7,6 @@ vbox-disable-timesync: init.d-script-missing-lsb-description etc/init.d/virtualb
 
 ## for config-package-dev
 vbox-disable-timesync: package-contains-empty-directory usr/share/vbox-disable-timesync/
+
+## upstream does not provide a systemd unit file.
+vbox-disable-timesync: missing-systemd-service-for-init.d-script virtualbox-guest-utils.anondist
