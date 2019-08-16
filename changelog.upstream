@@ -1,3 +1,15 @@
+commit 9b2ed6235a83df29e12e1e182d408556073334c7
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 16 10:54:17 2019 -0400
+
+    update stretch -> buster
+
+commit 475cf4a871ddf21f221b8453266071ec19d1a092
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 1 12:10:26 2019 +0000
+
+    bumped changelog version
+
 commit 240157435818d3e1ee6b6b2fadfc78c4944d5e1b
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Aug 1 11:13:46 2019 +0000
