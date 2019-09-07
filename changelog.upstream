@@ -1,3 +1,15 @@
+commit 55c800850ed31d250641d3f796775a8612aa68e0
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 03:02:56 2019 +0000
+
+    rm_conffile /etc/init.d/virtualbox-guest-utils.anondist
+
+commit 4dfda8068e7745c1a83d606f25584a99eb81daa6
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 02:50:37 2019 +0000
+
+    bumped changelog version
+
 commit d37c9d7ffc0eaece523447234a464469cf95c209
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Sat Sep 7 02:50:09 2019 +0000
