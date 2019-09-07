@@ -2,7 +2,7 @@
 ## See the file COPYING for copying conditions.
 
 Source: vbox-disable-timesync
-Section: misc
+Section: oldlibs
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
 Build-Depends: debhelper (>= 12), genmkfile, config-package-dev
@@ -13,14 +13,8 @@ Standards-Version: 4.3.0
 
 Package: vbox-disable-timesync
 Architecture: all
-Depends: lsb-base, ${misc:Depends}
-Description: Disables VirtualBox guest addition's time synchronization feature
- When VirtualBox guest additions are installed in a VirtualBox Virtual Machine
- (VM), VirtualBox will set the VM's time to the host's time. In most cases,
- this is a useful feature, but not in context of anonymity/privacy, where the
- VM's clock is supposed to differ from the host's clock.
+Depends: ${misc:Depends}
+Description: transitional package
+ This is a transitional package.
  .
- VirtualBox's feature would interfere with other network time synchronization
- mechanisms, such as sdwdate or bootclockrandomization.
- .
- This package contains an init script, that disables this VirtualBox feature.
+ Can be safely removed.
