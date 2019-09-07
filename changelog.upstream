@@ -1,3 +1,57 @@
+commit d37c9d7ffc0eaece523447234a464469cf95c209
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 02:50:09 2019 +0000
+
+    readme
+
+commit 7e9ca7c8997b001f5a961b4917052d2d90f83608
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 02:35:14 2019 +0000
+
+    make it a transitional package
+
+commit 776d6cba1dcdfb8b7152ee1f888a69ca8c808b0e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 02:30:19 2019 +0000
+
+    copyright
+
+commit 1447682c144e888781103815eb1de190aa301531
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Sep 7 02:29:25 2019 +0000
+
+    remove dh_installinit
+
+commit a7c51a4228219d65b5073078b17d4587f8ec9866
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 6 22:05:04 2019 -0400
+
+    usr/share/lintian/overrides/vbox-disable-timesync
+
+commit 07fc7e87f292b9e75f12afacc1642b4d01303984
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 6 22:04:42 2019 -0400
+
+    deleted:    lib/systemd/system/virtualbox-guest-utils.service.d/40_vbox-disable-timesync.conf
+
+commit 29e9efbe3841b044658b723d850ffbf90395edd2
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 6 22:04:15 2019 -0400
+
+    deleted:    etc/init.d/virtualbox-guest-utils.anondist
+
+commit b730f50afdb8761695d8a5d2a3daa3b2aead0eb9
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Sep 6 22:03:52 2019 -0400
+
+    renamed:    debian/vbox-disable-timesync.hide -> debian/vbox-disable-timesync.unhide
+
+commit 245daca5aacea1293de444c8a3a8873cb6cdc241
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri Aug 16 16:01:05 2019 +0000
+
+    bumped changelog version
+
 commit 9b2ed6235a83df29e12e1e182d408556073334c7
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri Aug 16 10:54:17 2019 -0400
